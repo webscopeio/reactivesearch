@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - native-base > lodash:
+        patched: '2019-07-03T21:40:03.789Z'
+    - native-base > native-base-shoutem-theme > lodash:
+        patched: '2019-07-03T21:40:03.789Z'
+    - native-base > react-native-easy-grid > lodash:
+        patched: '2019-07-03T21:40:03.789Z'
+    - native-base > react-native-vector-icons > lodash:
+        patched: '2019-07-03T21:40:03.789Z'
